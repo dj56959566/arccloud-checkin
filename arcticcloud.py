@@ -42,7 +42,7 @@ LOGIN_URL = "https://vps.polarbear.nyc.mn/index/login/?referer="
 CONTROL_INDEX_URL = "https://vps.polarbear.nyc.mn/control/index/"
 
 # 截图目录
-SCREENSHOT_DIR = "/ql/data/photo"
+SCREENSHOT_DIR = "/tmp/screenshots""
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 
 # 设置日志输出等级
